@@ -6,7 +6,7 @@ public class Reta {
 
     public Reta(Ponto p1, Ponto p2) {
         coeficienteAngular = calcularCoeficienteAngular(p1, p2);
-        coeficienteLinear = calcularCoeficienteLinear(p1, p2)
+        coeficienteLinear = calcularCoeficienteLinear(p1, p2);
     }
 
     public double calcularCoeficienteAngular(Ponto p1, Ponto p2) {
